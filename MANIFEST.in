@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include mqayes_theme *.css
+recursive-include mqayes_theme *.csv
+recursive-include mqayes_theme *.html
+recursive-include mqayes_theme *.ico
+recursive-include mqayes_theme *.js
+recursive-include mqayes_theme *.json
+recursive-include mqayes_theme *.md
+recursive-include mqayes_theme *.png
+recursive-include mqayes_theme *.py
+recursive-include mqayes_theme *.svg
+recursive-include mqayes_theme *.txt
+recursive-exclude mqayes_theme *.pyc
