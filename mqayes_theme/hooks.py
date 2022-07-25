@@ -22,7 +22,9 @@ app_license = "MIT"
 
 # include custom scss in every website theme (without file extension ".scss")
 # website_theme_scss = "mqayes_theme/public/scss/website"
-
+website_context = {
+    "splash_image": "/assets/mqayes_theme/images/mqyaes-logo.png"
+}
 # include js, css files in header of web form
 # webform_include_js = {"doctype": "public/js/doctype.js"}
 # webform_include_css = {"doctype": "public/css/doctype.css"}
@@ -58,7 +60,7 @@ app_license = "MIT"
 
 # before_install = "mqayes_theme.install.before_install"
 # after_install = "mqayes_theme.install.after_install"
-
+after_install = "mqayes_theme.install.after_install"
 # Uninstallation
 # ------------
 
